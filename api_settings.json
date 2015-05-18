@@ -1,0 +1,7 @@
+{
+	"match" : {
+		"APIType" : 1,
+		"APIName" : "userlogin",
+		"APIResponseType" : "text"
+	}
+}
