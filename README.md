@@ -49,7 +49,7 @@ make
 
 #### HTTP
 
-`g++ -O3 -std=c++11 http_examples.cpp -lboost_system -lboost_thread -lboost_coroutine -lboost_context -o http_examples`
+`g++ -O3 -std=c++11 http_examples.cpp http_parser.c -lcurl -lboost_system -lboost_thread -lboost_coroutine -lboost_context -o http_examples`
 
 Then to run the server and client examples: `./http_examples`
 
